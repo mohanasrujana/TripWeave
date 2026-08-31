@@ -11,9 +11,11 @@ travel from the React client through the Spring Boot API to PostgreSQL.
 
 **Acceptance criteria**
 
-- [ ] Review product vision and explicitly accept or edit Phase 1 non-goals.
+- [x] Review product vision and explicitly accept or edit Phase 1 non-goals.
 - [ ] Confirm weekly capacity and replace placeholder work hours if needed.
-- [ ] Record Java, Node, Docker, Maven, and npm versions in an ADR.
+- [ ] Record Java, Node, Docker, Maven, and npm versions in an ADR. Maven,
+  Node.js, and npm are recorded; Docker is not installed and local Java is 23
+  rather than the required Java 21.
 - [ ] Resolve the remaining capacity decision in `project/STATUS.md`.
 
 

@@ -12,8 +12,10 @@ skeleton should remain focused on proving the UI-to-database development loop.
 
 ## Decision
 
-- Use Maven for the Java 21 Spring Boot build.
-- Use npm for the React TypeScript workspace.
+- Use Java 21 and Maven 3.9.10 for the Spring Boot build.
+- Use Node.js 25.8.2 and npm 11.11.1 for the React TypeScript workspace.
+- Use Docker Desktop with Compose v2 for local infrastructure. Record the exact
+  Docker and Compose versions after Docker is installed.
 - Implement authentication in-house during Phase 1.
 - Keep authentication behind an application-facing identity boundary so a
   managed provider can be introduced later without coupling domain modules to a
@@ -46,3 +48,19 @@ skeleton should remain focused on proving the UI-to-database development loop.
 - Phase 1 security tests cover authentication and authorization failure paths.
 - The architecture review confirms domain modules do not depend directly on the
   authentication mechanism.
+
+## Local toolchain check
+
+Checked on August 31, 2026:
+
+| Tool | Project version | Detected locally | Result |
+|---|---|---|---|
+| Java | 21 | 23 | Install or select JDK 21 |
+| Maven | 3.9.10 | 3.9.10 | Ready |
+| Node.js | 25.8.2 | 25.8.2 | Ready |
+| npm | 11.11.1 | 11.11.1 | Ready |
+| Docker | Docker Desktop, Compose v2 | Not installed | Required for TW-004 |
+
+The project will use wrappers and pinned project configuration where possible.
+Local versions above describe the verified bootstrap environment; dependency
+versions will remain locked in the build files.

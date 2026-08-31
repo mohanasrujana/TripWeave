@@ -1,39 +1,40 @@
-# Project status
+# TripWeave status
 
-- Updated: August 27, 2026
-- Phase: 0 — Foundation
-- Sprint: 0 — Walking skeleton
-- Sprint health: Not started
-- Current ticket: TW-001
-- Next checkpoint: Kickoff review, August 28, 2026
+- **Updated:** August 31, 2026
+- **Phase:** Foundation
+- **Sprint:** Sprint 0 — Walking skeleton
+- **Current ticket:** TW-001 — Confirm product and engineering constraints
 
-## Completed
+## Done
 
-- Defined the product vision and Phase 1 boundary.
-- Selected the starting architecture and planned evolution.
-- Created roadmap, backlog, sprint, schedule, and engineering workflow.
+- Product vision and Phase 1 scope are documented.
+- Phase 1 non-goals are accepted.
+- Maven 3.9.10, Node.js 25.8.2, and npm 11.11.1 are available locally.
+- Maven, npm, and self-hosted authentication were selected.
+- The repository, backlog, sprint plan, and engineering workflow are in place.
 
-## In progress
+## Next
 
-- TW-001 — Confirm product and engineering constraints.
+1. Confirm the weekly capacity assumption of 15 focused hours.
+2. Install or select Java 21; Java 23 is currently active.
+3. Install Docker Desktop and record its Docker and Compose versions.
+4. Close TW-001 and begin TW-002, the Spring Boot API bootstrap.
 
-## Blockers
+## Blocked
 
-- None.
+- TW-002 requires Java 21.
+- TW-004 requires Docker Desktop.
+- Sprint capacity cannot be finalized until the weekly-hours assumption is
+  confirmed.
 
-## Open decisions for kickoff
+## Evidence
 
-1. Confirm or replace the assumed 15 focused hours per week.
+- Toolchain results are recorded in
+  `docs/architecture/adr/001-build-and-authentication-foundations.md`.
+- The August 31 work log is in `project/check-ins/2026-08-31.md`.
 
-## Decisions made
+## Scope guardrail
 
-- Java build: Maven.
-- Web package manager: npm.
-- Authentication: self-hosted initially, behind a replaceable application
-  boundary. The walking skeleton will not implement authentication yet.
-
-## Manager assessment
-
-The main early risk is over-engineering before validating the core user journey.
-Phase 1 intentionally excludes CRDTs, Kafka, Kubernetes, live booking, and AI.
-The immediate standard is a boring, tested, reproducible walking skeleton.
+The immediate goal is a tested request path from the React client through the
+Spring Boot API to PostgreSQL. CRDTs, Kafka, Kubernetes, booking, and AI remain
+out of scope for Sprint 0.
