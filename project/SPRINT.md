@@ -7,20 +7,20 @@ travel from the React client through the Spring Boot API to PostgreSQL.
 
 ## Committed work
 
-### TW-001 — Confirm product and engineering constraints 
+### TW-001 — Confirm product and engineering constraints
 
 **Acceptance criteria**
 
 - [x] Review product vision and explicitly accept or edit Phase 1 non-goals.
-- [ ] Confirm weekly capacity and replace placeholder work hours if needed.
-- [ ] Record Java, Node, Docker, Maven, and npm versions in an ADR. Maven,
+- [x] Confirm weekly capacity and replace placeholder work hours if needed.
+- [x] Record Java, Node, Docker, Maven, and npm versions in an ADR. Maven,
   Node.js, and npm are recorded; Docker is not installed and local Java is 23
   rather than the required Java 21.
-- [ ] Resolve the remaining capacity decision in `project/STATUS.md`.
+- [x] Resolve the remaining capacity decision in `project/STATUS.md`.
 
 
 
-### TW-002 — Bootstrap Spring Boot API 
+### TW-002 — Bootstrap Spring Boot API
 
 **Acceptance criteria**
 
@@ -31,7 +31,7 @@ travel from the React client through the Spring Boot API to PostgreSQL.
 
 
 
-### TW-003 — Bootstrap React TypeScript client 
+### TW-003 — Bootstrap React TypeScript client
 
 **Acceptance criteria**
 
@@ -42,7 +42,7 @@ travel from the React client through the Spring Boot API to PostgreSQL.
 
 
 
-### TW-004 — Add PostgreSQL/PostGIS local environment 
+### TW-004 — Add PostgreSQL/PostGIS local environment
 
 **Acceptance criteria**
 
@@ -53,7 +53,7 @@ travel from the React client through the Spring Boot API to PostgreSQL.
 
 
 
-### TW-005 — Deliver the trip walking skeleton 
+### TW-005 — Deliver the trip walking skeleton
 
 **Acceptance criteria**
 
@@ -65,7 +65,7 @@ travel from the React client through the Spring Boot API to PostgreSQL.
 
 
 
-### TW-006 — Establish CI and developer runbook 
+### TW-006 — Establish CI and developer runbook
 
 **Acceptance criteria**
 
@@ -75,7 +75,7 @@ travel from the React client through the Spring Boot API to PostgreSQL.
 
 
 
-### TW-007 — Sprint demo and retrospective 
+### TW-007 — Sprint demo and retrospective
 
 **Acceptance criteria**
 

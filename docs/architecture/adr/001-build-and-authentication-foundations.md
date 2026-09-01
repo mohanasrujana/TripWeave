@@ -14,8 +14,7 @@ skeleton should remain focused on proving the UI-to-database development loop.
 
 - Use Java 21 and Maven 3.9.10 for the Spring Boot build.
 - Use Node.js 25.8.2 and npm 11.11.1 for the React TypeScript workspace.
-- Use Docker Desktop with Compose v2 for local infrastructure. Record the exact
-  Docker and Compose versions after Docker is installed.
+- Use Docker Desktop with the Docker Compose plugin for local infrastructure.
 - Implement authentication in-house during Phase 1.
 - Keep authentication behind an application-facing identity boundary so a
   managed provider can be introduced later without coupling domain modules to a
@@ -51,15 +50,15 @@ skeleton should remain focused on proving the UI-to-database development loop.
 
 ## Local toolchain check
 
-Checked on August 31, 2026:
+Checked on September 1, 2026:
 
 | Tool | Project version | Detected locally | Result |
 |---|---|---|---|
-| Java | 21 | 23 | Install or select JDK 21 |
+| Java | 21 | 21.0.12.1 (Temurin) | Ready |
 | Maven | 3.9.10 | 3.9.10 | Ready |
 | Node.js | 25.8.2 | 25.8.2 | Ready |
 | npm | 11.11.1 | 11.11.1 | Ready |
-| Docker | Docker Desktop, Compose v2 | Not installed | Required for TW-004 |
+| Docker | Docker Desktop with `docker compose` | Desktop 4.89.0; Docker 29.7.2; Compose v5.5.0 | Ready |
 
 The project will use wrappers and pinned project configuration where possible.
 Local versions above describe the verified bootstrap environment; dependency
