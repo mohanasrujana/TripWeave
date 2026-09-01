@@ -12,10 +12,8 @@ travel from the React client through the Spring Boot API to PostgreSQL.
 **Acceptance criteria**
 
 - [x] Review product vision and explicitly accept or edit Phase 1 non-goals.
-- [x] Confirm weekly capacity and replace placeholder work hours if needed.
-- [x] Record Java, Node, Docker, Maven, and npm versions in an ADR. Maven,
-  Node.js, and npm are recorded; Docker is not installed and local Java is 23
-  rather than the required Java 21.
+- [x] Confirm weekly capacity at 15 focused hours.
+- [x] Record Java, Node, Docker, Maven, and npm versions in an ADR.
 - [x] Resolve the remaining capacity decision in `project/STATUS.md`.
 
 
@@ -24,10 +22,10 @@ travel from the React client through the Spring Boot API to PostgreSQL.
 
 **Acceptance criteria**
 
-- [ ] Java 21 Spring Boot project exists under `services/api`.
-- [ ] Health endpoint returns a documented response.
-- [ ] Unit and application-context tests pass.
-- [ ] Formatting/static checks run locally with one documented command.
+- [x] Java 21 Spring Boot project exists under `services/api`.
+- [x] Health endpoint returns a documented response.
+- [x] Unit and application-context tests pass.
+- [x] Formatting/static checks run locally with one documented command.
 
 
 
