@@ -1,9 +1,9 @@
 # TripWeave status
 
-- **Updated:** September 1, 2026
+- **Updated:** September 2, 2026
 - **Phase:** Foundation
 - **Sprint:** Sprint 0 — Walking skeleton
-- **Current ticket:** TW-004 — Add PostgreSQL/PostGIS local environment
+- **Current ticket:** TW-003 — Bootstrap React TypeScript client
 
 ## Done
 
@@ -24,10 +24,10 @@
 
 ## Next
 
-1. Add a pinned PostgreSQL/PostGIS Docker Compose service.
-2. Configure credentials through documented environment variables.
-3. Connect the API and apply a versioned migration.
-4. Verify setup from a clean database volume.
+1. Bootstrap a React TypeScript client under `apps/web`.
+2. Display API health with loading, success, and error behavior.
+3. Add component tests for all three states.
+4. Verify formatting, linting, and type checks.
 
 ## Blocked
 
