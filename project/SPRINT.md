@@ -33,10 +33,10 @@ travel from the React client through the Spring Boot API to PostgreSQL.
 
 **Acceptance criteria**
 
-- [ ] React TypeScript project exists under `apps/web`.
-- [ ] App displays API health state with loading, success, and error behavior.
-- [ ] Component tests cover the three states.
-- [ ] Formatting, linting, and type checks pass.
+- [x] React TypeScript project exists under `apps/web`.
+- [x] App displays API health state with loading, success, and error behavior.
+- [x] Component tests cover the three states.
+- [x] Formatting, linting, and type checks pass.
 
 
 

@@ -21,13 +21,20 @@
 - Unit, MVC slice, and application-context tests pass.
 - `./mvnw verify` runs tests, Spotless, and Checkstyle.
 - TW-002 is closed.
+- The React 19 and TypeScript client is scaffolded under `apps/web`.
+- The client renders loading, success, and error states for `GET /api/health`.
+- Vite proxies `/api` requests to the Spring Boot service on port 8080.
+- Component tests cover all three health states.
+- `npm run check` passes Prettier, Oxlint, 3 Vitest tests, TypeScript, and the
+  Vite production build.
+- Per-ticket implementation notes are maintained under `project/tickets/`.
 
 ## Next
 
-1. Bootstrap a React TypeScript client under `apps/web`.
-2. Display API health with loading, success, and error behavior.
-3. Add component tests for all three states.
-4. Verify formatting, linting, and type checks.
+1. Review and commit the remaining TW-003 test and quality changes.
+2. Replace the generic Vite README with TripWeave-specific web instructions.
+3. Run the API and web client together and manually verify the health states.
+4. Close TW-003 after the Definition of Done review.
 
 ## Blocked
 
@@ -39,6 +46,9 @@
   `docs/architecture/adr/001-build-and-authentication-foundations.md`.
 - The August 31 work log is in `project/check-ins/2026-08-31.md`.
 - TW-002 evidence is recorded in `project/check-ins/2026-09-01.md`.
+- TW-003's automated check passed on September 2, 2026: formatting and linting
+  passed, all 3 component tests passed, and the production build succeeded.
+- Detailed ticket records are indexed in `project/tickets/README.md`.
 
 ## Scope guardrail
 
