@@ -3,7 +3,7 @@
 - **Updated:** September 3, 2026
 - **Phase:** Foundation
 - **Sprint:** Sprint 0 — Walking skeleton
-- **Current ticket:** TW-003 — Bootstrap React TypeScript client
+- **Current ticket:** TW-004 — Add PostgreSQL/PostGIS local environment
 
 ## Done
 
@@ -27,13 +27,15 @@
 - Component tests cover all three health states.
 - `npm run check` passes Prettier, Oxlint, 3 Vitest tests, TypeScript, and the
   Vite production build.
+- TW-003 is closed in commit `6d1d3bc`.
 - Per-ticket implementation notes are maintained under `project/tickets/`.
 
 ## Next
 
-1. Review and commit the remaining TW-003 changes.
-2. Confirm the working tree is clean.
-3. Close TW-003 and return to TW-004.
+1. Add a pinned PostgreSQL/PostGIS Docker Compose service.
+2. Configure credentials through documented environment variables.
+3. Connect the API and apply a versioned migration.
+4. Verify setup from a clean database volume.
 
 ## Blocked
 
