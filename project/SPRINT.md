@@ -44,10 +44,10 @@ travel from the React client through the Spring Boot API to PostgreSQL.
 
 **Acceptance criteria**
 
-- [ ] Docker Compose starts a pinned PostgreSQL/PostGIS image.
-- [ ] Credentials come from documented environment variables.
-- [ ] The API connects and applies a versioned migration.
-- [ ] A clean-volume setup is verified from the runbook.
+- [x] Docker Compose starts a pinned PostgreSQL/PostGIS image.
+- [x] Credentials come from documented environment variables.
+- [x] The API connects and applies a versioned migration.
+- [x] A clean-volume setup is verified from the runbook.
 
 
 
