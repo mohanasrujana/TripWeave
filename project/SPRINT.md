@@ -67,7 +67,7 @@ travel from the React client through the Spring Boot API to PostgreSQL.
 
 **Acceptance criteria**
 
-- [ ] CI runs API and web checks on pushes to `main`.
+- [ ] CI runs API and web checks on pushes to `master`.
 - [x] The local runbook contains exact setup and verification commands.
 - [x] A clean checkout can be built using only documented prerequisites.
 

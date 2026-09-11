@@ -24,12 +24,12 @@
 ## Next
 
 1. Review and commit TW-006 CI and runbook changes.
-2. Push to `main` and verify both hosted CI jobs.
+2. Push to `master` and verify both hosted CI jobs.
 3. Record hosted CI evidence before closing TW-006 and starting TW-007.
 
 ## Blocked
 
-- No local blockers; hosted CI remains pending the first push-to-main run.
+- No local blockers; hosted CI remains pending the first push-to-master run.
 
 ## Evidence
 

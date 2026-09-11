@@ -12,7 +12,7 @@
 
 ## Commits
 
-- As the sole contributor, work directly on `main`; pull requests are not required.
+- As the sole contributor, work directly on `master`; pull requests are not required.
 - Commit format: `<type>(<area>): <imperative summary>`
 - Types: `feat`, `fix`, `test`, `docs`, `refactor`, `build`, `chore`
 - Prefer commits that represent one coherent, working change.
@@ -23,12 +23,12 @@ Example:
 feat(trips): create trip aggregate and persistence model
 ```
 
-## Direct-to-main workflow
+## Direct-to-master workflow
 
 Before committing, review the diff and run the local API and web checks in the
 [runbook](docs/runbooks/local-development.md). Confirm scope, failure paths,
 database changes, and documentation. Commit after local checks pass, then push
-to `main` and check both GitHub Actions jobs. If CI fails, fix the failure before
+to `master` and check both GitHub Actions jobs. If CI fails, fix the failure before
 starting the next ticket. Hosted checks run after the push; they do not block it.
 
 ## Definition of done

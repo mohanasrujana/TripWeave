@@ -167,13 +167,13 @@ unset COMPOSE_PROJECT_NAME
 
 ## CI
 
-`.github/workflows/ci.yml` runs separate API and web jobs for pushes to `main`
+`.github/workflows/ci.yml` runs separate API and web jobs for pushes to `master`
 and manual dispatch. API checks use the same digest-pinned
 PostGIS image and Maven Wrapper as local development. Web checks install from
 the lockfile with the documented Node/npm versions. CI database credentials
 are disposable job-local values; repository secrets are not required.
 
-After pushing directly to `main`, check **Actions → CI** for
+After pushing directly to `master`, check **Actions → CI** for
 both jobs. Local verification does not prove a hosted Actions run succeeded.
 
 ## Troubleshooting
