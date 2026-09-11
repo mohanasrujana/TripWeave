@@ -77,5 +77,5 @@ docker compose up -d database
 
 Wait until `docker compose ps database` reports `healthy`, then load `.env` and
 run `./mvnw verify` from `services/api`. Finally, query
-`flyway_schema_history` as shown above and confirm migration version `1`
-succeeded.
+`flyway_schema_history` as shown above and confirm migration versions `1` and
+`2` succeeded.

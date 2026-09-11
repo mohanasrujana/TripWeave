@@ -55,11 +55,11 @@ travel from the React client through the Spring Boot API to PostgreSQL.
 
 **Acceptance criteria**
 
-- [ ] A minimal trip has an ID, name, date range, time zone, and creator ID.
-- [ ] API can create and retrieve a trip with validation and error responses.
-- [ ] UI form creates a trip and renders the saved result.
-- [ ] Unit, integration, API, and UI tests cover the happy path and key failures.
-- [ ] Money, voting, invitations, and authentication remain out of scope.
+- [x] A minimal trip has an ID, name, date range, time zone, and creator ID.
+- [x] API can create and retrieve a trip with validation and error responses.
+- [x] UI form creates a trip and renders the saved result.
+- [x] Unit, integration, API, and UI tests cover the happy path and key failures.
+- [x] Money, voting, invitations, and authentication remain out of scope.
 
 
 
