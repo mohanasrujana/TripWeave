@@ -9,3 +9,4 @@ the decisions I made, the checks I ran, and anything that still needs follow-up.
 | [TW-002](TW-002.md) | Bootstrap Spring Boot API | Complete |
 | [TW-003](TW-003.md) | Bootstrap React TypeScript client | Complete |
 | [TW-004](TW-004.md) | Add PostgreSQL/PostGIS local environment | Complete |
+| [TW-005](TW-005.md) | Deliver the trip walking skeleton | In Progress |
