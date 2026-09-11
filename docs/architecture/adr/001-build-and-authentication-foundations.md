@@ -63,3 +63,11 @@ Checked on September 1, 2026:
 The project will use wrappers and pinned project configuration where possible.
 Local versions above describe the verified bootstrap environment; dependency
 versions will remain locked in the build files.
+
+## TW-006 toolchain alignment — September 11, 2026
+
+The Maven Wrapper now pins Maven 3.9.16. Standardize CI and the runbook on
+Node.js 26.8.1 and npm 11.19.0, matching the current local toolchain;
+`.node-version` records the Node version for CI and local version managers.
+Java remains Temurin 21. This supersedes the original Maven/Node/npm version
+selection above; the September 1 table remains a historical snapshot.

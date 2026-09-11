@@ -8,8 +8,11 @@ geospatial routing, and durable event-driven workflows.
 
 ## Current status
 
-**Phase 0 — Foundation.** The repository and engineering process are ready;
-application implementation has not started.
+**Sprint 0 — Walking skeleton.** The React client creates trips through the
+Spring Boot API and persists them in PostgreSQL. CI and clean-checkout
+verification are the current focus.
+
+Start with the [local development runbook](docs/runbooks/local-development.md).
 
 - [Product vision](docs/product/vision.md)
 - [System architecture](docs/architecture/system-design.md)

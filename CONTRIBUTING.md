@@ -7,12 +7,12 @@
 - A ticket is **Ready** only when its outcome and acceptance criteria are clear.
 - Only one primary ticket should be **In Progress** at a time.
 - **Review** means the implementation is complete and the engineer is checking
-  the diff, tests, behavior, and documentation as if reviewing a teammate's PR.
+  the diff, tests, behavior, and documentation before committing.
 - **Done** requires every item in the definition of done.
 
-## Branches and commits
+## Commits
 
-- Branch format: `codex/<ticket-id>-short-description`
+- As the sole contributor, work directly on `main`; pull requests are not required.
 - Commit format: `<type>(<area>): <imperative summary>`
 - Types: `feat`, `fix`, `test`, `docs`, `refactor`, `build`, `chore`
 - Prefer commits that represent one coherent, working change.
@@ -23,11 +23,13 @@ Example:
 feat(trips): create trip aggregate and persistence model
 ```
 
-## Pull-request discipline for a solo engineer
+## Direct-to-main workflow
 
-Before merging, step away from the implementation briefly and review the diff
-from the PR template. Confirm scope, failure paths, tests, security implications,
-database changes, observability, and documentation. Do not merge red CI.
+Before committing, review the diff and run the local API and web checks in the
+[runbook](docs/runbooks/local-development.md). Confirm scope, failure paths,
+database changes, and documentation. Commit after local checks pass, then push
+to `main` and check both GitHub Actions jobs. If CI fails, fix the failure before
+starting the next ticket. Hosted checks run after the push; they do not block it.
 
 ## Definition of done
 
