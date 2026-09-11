@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import TripForm from './TripForm'
 import './App.css'
 
 type HealthState =
@@ -58,6 +59,8 @@ function App() {
     <main>
       <h1>TripWeave</h1>
       <p>Collaborative group-trip planning</p>
+
+      <TripForm />
 
       <section aria-labelledby="api-health-heading">
         <h2 id="api-health-heading">API health</h2>
